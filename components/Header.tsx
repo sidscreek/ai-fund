@@ -10,11 +10,24 @@ const Header = () => {
         <div className='font-bold text-lg'>AI Angels</div>
       </Link>
       <div className="text-gray-700 sm:max-w-7xl max-w-[200x]">
-        Want to add yourself as an angel investor ? DM me
+        Want to add yourself as an angel investor?{' '}
+        <a className='text-black font-medium'
+           target='_blank'
+           rel='nullopener norefferer'
+           href='/'
+        >
+          DM me
+        </a>
       </div>
      </nav>
+
+     <div className="max-w-6xl mx-auto px-4 md:px-8 sm:pt-16 pt-8 text-gray-600">
+        <div className='space-y-5 max-w-4xl mx-auto text-center'>
+          <h1 className='text-4xl text-gray-800 font-extrabold mx-auto sm:text-6xl max-w-3xl'>Find the next angel investor for your AI startup</h1>
+        </div>
+     </div>
     </>
-  )
+  );
 }
 
 export default Header
