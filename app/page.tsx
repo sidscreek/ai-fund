@@ -1,8 +1,12 @@
-
+import SearchBar from "@/components/SearchBar"
+import Stats from "@/components/Stats"
 
 export default function homepage() {
     return (
-        <div>HI</div>
+       <div>
+        <Stats />
+       <SearchBar />
+       </div>
        
     )
 }
